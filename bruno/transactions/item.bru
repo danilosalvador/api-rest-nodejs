@@ -1,0 +1,19 @@
+meta {
+  name: item
+  type: http
+  seq: 3
+}
+
+get {
+  url: http://localhost:3333/transactions/226ddae3-654f-4436-aca8-8220122e670a
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "title": "Transação 1",
+    "amount": 1000000,
+    "type": "credit"
+  }
+}
