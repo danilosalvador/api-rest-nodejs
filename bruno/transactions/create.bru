@@ -5,15 +5,15 @@ meta {
 }
 
 post {
-  url: http://localhost:3333/transactions
+  url: {{URL}}/transactions
   body: json
   auth: none
 }
 
 body:json {
   {
-    "title": "Pizza",
-    "amount": 90.5,
-    "type": "debit"
+    "title": "Projeto",
+    "amount": 22800,
+    "type": "credit"
   }
 }
